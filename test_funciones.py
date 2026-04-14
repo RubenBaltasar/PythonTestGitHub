@@ -23,7 +23,7 @@ def test_inicia_con_mayuscula():
     assert inicia_con_mayuscula("Hola") is True
     assert inicia_con_mayuscula("casa") is False
     assert inicia_con_mayuscula("jamoN") is False
-    assert inicia_con_mayuscula("SerpientE") is False
+    assert inicia_con_mayuscula("SerpientE") is True
 
 def test_contiene_espacios():
     assert contiene_espacios("hola") is False
